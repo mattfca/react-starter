@@ -1,0 +1,72 @@
+{
+  "palette":{
+    "common":{
+      "black":"#000",
+      "white":"#fff"
+    },
+    "background":{
+      "paper":"#fff",
+      "default":"#fafafa"
+    },
+    "primary":{
+      "light":"#e3f2fd",
+      "main":"rgba(62, 125, 198, 1)",
+      "dark":"rgba(35, 64, 100, 1)",
+      "contrastText":"#fff"
+    },
+    "secondary":{
+      "light":"rgba(106, 229, 106, 1)",
+      "main":"rgba(92, 184, 92, 1)",
+      "dark":"rgba(71, 145, 71, 1)",
+      "contrastText":"#fff"
+    },
+    "action":{
+      "light":"rgba(231, 45, 45, 1)",
+      "main":"rgba(231, 45, 45, 1)",
+      "dark":"rgba(231, 45, 45, 1)",
+      "contrastText":"#fff"
+    },
+    "error":{
+      "light":"#e57373",
+      "main":"#f44336",
+      "dark":"#d32f2f",
+      "contrastText":"#fff"
+    },
+    "text":{
+      "primary":"rgba(0, 0, 0, 0.87)",
+      "secondary":"rgba(0, 0, 0, 0.54)",
+      "disabled":"rgba(0, 0, 0, 0.38)",
+      "hint":"rgba(0, 0, 0, 0.38)"
+    }
+  },
+  "typography":{
+    "fontFamily": "Roboto,-apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Helvetica Neue\",Arial",
+    "h1":{
+      "fontSize":"1.25rem",
+      "fontWeight":"inherit",
+      "textTransform": "capitalize"
+    },
+    "h2":{
+      "fontSize":"1.15rem",
+      "fontWeight":"inherit",
+      "textTransform": "capitalize"
+    },
+    "h3":{
+      "fontSize":"1rem",
+      "fontWeight":"inherit",
+      "textTransform": "capitalize"
+    }
+  },
+  "overrides": {
+    "MuiCardHeader": {
+      "title": {
+        "fontSize":"1.15rem",
+        "textTransform": "capitalize"
+      },
+      "subheader": {
+        "fontSize":".9rem",
+        "textTransform": "capitalize"
+      }
+    }
+  }
+} 
